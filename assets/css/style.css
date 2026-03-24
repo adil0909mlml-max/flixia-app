@@ -116,8 +116,11 @@ html {
 body {
   background-color: var(--background);
   color: var(--on-background);
-  font-size: var(--fs-body);
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.6rem;
   line-height: 1.5;
+  overflow-x: hidden; /* CRITICAL: Prevent horizontal scroll */
+  width: 100%;
 }
 
 :focus-visible {
@@ -1024,6 +1027,13 @@ body {
     width: 160px;
   }
 
+  .header {
+    max-width: 1400px;
+    margin-inline: auto;
+    width: 100%;
+    justify-content: space-between;
+  }
+
   main {
     display: block;
     width: 100%;
@@ -1034,7 +1044,6 @@ body {
     display: flex !important;
     align-items: center;
     gap: 32px;
-    margin-inline: auto; /* Centering */
   }
 
   .nav-link {
@@ -1053,8 +1062,7 @@ body {
   .desktop-search {
     display: block !important;
     position: relative;
-    width: 280px;
-    margin-inline-start: 0; /* Align with flex distribution */
+    width: 300px;
   }
 
   .desktop-search input {
@@ -1082,7 +1090,9 @@ body {
 
   .container {
     height: calc(100vh - 104px);
-    border-top-left-radius: var(--radius-36);
+    border-radius: var(--radius-36) var(--radius-36) 0 0; /* Symmetrical radius */
+    width: 100%;
+    margin-inline: auto;
   }
 
   .banner-content {
