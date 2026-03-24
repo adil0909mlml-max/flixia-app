@@ -239,6 +239,33 @@ body {
   transition: var(--transition-short);
 }
 
+.watch-btn {
+  background-color: #e41a1c;
+  color: var(--white);
+  font-size: var(--fs-button);
+  font-weight: var(--weight-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 24px;
+  border-radius: var(--radius-8);
+  transition: var(--transition-short);
+  margin-block: 20px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.watch-btn::after {
+  content: '▶';
+  font-size: 1.2rem;
+}
+
+.watch-btn:hover {
+  background-color: #b31416;
+  transform: scale(1.02);
+}
+
 .card-badge {
   background-color: var(--banner-background);
   color: var(--white);

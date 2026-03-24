@@ -165,7 +165,7 @@ function loadEpisodes(seasonNumber, tvName) {
             <div class="meta-item">${ep.runtime || 45} m</div>
           </div>
           
-          <button class="btn" style="width: 100%; padding: 10px; justify-content: center; border-radius: var(--radius-8); position: relative; z-index: 5;" onclick="openServerModal('${tvName.replace(/'/g, "\\'")} - S${seasonNumber} E${ep.episode_number}', ${seasonNumber}, ${ep.episode_number})">
+          <button class="watch-btn" style="width: 100%; margin-block: 10px;" onclick="openServerModal('${tvName.replace(/'/g, "\\'")} - S${seasonNumber} E${ep.episode_number}', ${seasonNumber}, ${ep.episode_number})">
             <span class="span">${getTxt("watchEpisode")}</span>
           </button>
         `;
