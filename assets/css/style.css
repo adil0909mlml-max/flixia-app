@@ -983,7 +983,7 @@ body {
     border-color: #e41a1c;
   }
 
-  .search-btn { display: none; }
+  .search-btn, .search-box, .menu-btn, .overlay { display: none; }
 
 
   .sidebar-list,
