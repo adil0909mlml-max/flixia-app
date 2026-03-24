@@ -626,7 +626,10 @@ body {
   padding: 24px 20px 48px;
   height: calc(100vh - 96px);
   overflow-y: overlay;
+  overflow-x: hidden; /* Prevent horizontal scroll */
   z-index: 1;
+  max-width: 1400px;
+  margin-inline: auto;
 }
 
 /* Banner */
@@ -755,6 +758,25 @@ body {
 
 .movie-card .card-banner {
   width: 200px;
+  border-radius: var(--radius-12);
+  overflow: hidden;
+  position: relative;
+}
+
+.rating-badge {
+  position: absolute;
+  top: 10px;
+  inset-inline-start: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: var(--rating-color);
+  padding: 2px 8px;
+  border-radius: var(--radius-4);
+  font-weight: var(--weight-bold);
+  font-size: 1.2rem;
+  z-index: 2;
+  display: flex !important;
+  align-items: center;
+  gap: 4px;
 }
 
 .movie-card .title {
@@ -772,6 +794,7 @@ body {
 .movie-card .card-btn {
   position: absolute;
   inset: 0;
+  z-index: 3;
 }
 
 /*-----------------------------------*\
@@ -1002,7 +1025,8 @@ body {
   }
 
   main {
-    display: block; /* Removed grid for full width */
+    display: block;
+    width: 100%;
   }
 
   /* Navbar styling */
@@ -1010,7 +1034,7 @@ body {
     display: flex !important;
     align-items: center;
     gap: 32px;
-    margin-inline: auto;
+    margin-inline: auto; /* Centering */
   }
 
   .nav-link {
@@ -1030,7 +1054,7 @@ body {
     display: block !important;
     position: relative;
     width: 280px;
-    margin-inline-start: auto;
+    margin-inline-start: 0; /* Align with flex distribution */
   }
 
   .desktop-search input {

@@ -30,9 +30,8 @@ function createMovieCard(media) {
       />
       <div class="card-meta">${year} ${isTv ? ' | TV' : ''}</div>
       <h3 class="title">${cardTitle}</h3>
+      <div class="rating-badge">${rating} ★</div>
     </figure>
-
-    <div class="rating-badge">${rating} ★</div>
 
     <a href="${link}" class="card-btn" title="${cardTitle}" onclick="${onClickAction}"></a>
   `;
