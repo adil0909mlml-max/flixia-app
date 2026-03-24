@@ -128,8 +128,8 @@ body {
 \*-----------------------------------*/
 
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 12px;
+  height: 12px;
 }
 
 ::-webkit-scrollbar-track {
@@ -139,6 +139,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #e41a1c;
   border-radius: var(--radius-8);
+  border: 3px solid var(--background); /* Create a padding effect */
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -147,7 +148,7 @@ body {
 
 /* For Firefox */
 * {
-  scrollbar-width: thin;
+  scrollbar-width: auto;
   scrollbar-color: #e41a1c var(--background);
 }
 
@@ -789,9 +790,25 @@ body {
 
 .movie-card .card-banner {
   width: 200px;
+  aspect-ratio: 2/3;
   border-radius: var(--radius-12);
   overflow: hidden;
   position: relative;
+  background-color: var(--banner-background);
+}
+
+.movie-card .card-banner.no-poster::after {
+  content: "⚡ فليكسيا";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #1a1a1a, #e41a1c10);
+  color: var(--white-alpha-20);
+  font-size: 2.4rem;
+  font-weight: bold;
+  z-index: 0;
 }
 
 .rating-badge {
