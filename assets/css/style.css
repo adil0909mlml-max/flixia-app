@@ -1043,6 +1043,137 @@ body {
     padding: 60px;
   }
 
+  .server-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+
+  .server-modal.active {
+    display: flex;
+  }
+
+  .server-modal-content {
+    background-color: #1a1a1a;
+    border: 1px solid var(--white-alpha-20);
+    width: 90%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: var(--radius-24);
+    box-shadow: 0 10px 50px rgba(0,0,0,0.5);
+  }
+
+  .server-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--white-alpha-10);
+    padding-bottom: 15px;
+  }
+
+  .server-title {
+    font-size: 2rem;
+    color: #e41a1c;
+  }
+
+  .server-close {
+    background: none;
+    border: none;
+    font-size: 2.4rem;
+    color: var(--white);
+    cursor: pointer;
+  }
+
+  .quality-badge {
+    background-color: #e41a1c;
+    color: white;
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .server-list {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+
+  .server-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 12px 20px;
+    border-radius: var(--radius-12);
+    border: 1px solid transparent;
+  }
+
+  .server-item:hover {
+    border-color: #e41a1c;
+  }
+
+  .server-name {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .server-btn {
+    background-color: #e41a1c;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .rating-section {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid var(--white-alpha-10);
+  }
+
+  .rating-label {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .stars-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .star {
+    font-size: 3rem;
+    color: #333;
+    cursor: pointer;
+  }
+
+  .star.active {
+    color: #FFC107;
+  }
+
+  .star-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    color: var(--on-surface-variant);
+    padding-inline: 10px;
+  }
+
   /* Movie Detail Page */
   .backdrop-image {
     border-top-left-radius: var(--radius-36);
