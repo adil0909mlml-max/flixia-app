@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Flixia | فليكسيا" />
+    <meta name="description" content="موقع Flixia لمشاهدة وتحميل أحدث الأفلام والمسلسلات" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <!-- Title -->
+    <title>Flixia | فليكسيا</title>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/translations.js"></script>
+    <!-- Scripts -->
+    <script src="assets/js/api.js" defer></script>
+    <script src="assets/js/global.js" defer></script>
+    <script src="assets/js/sidebar.js" defer></script>
+    <script src="assets/js/movie-card.js" defer></script>
+    <script src="assets/js/search.js" defer></script>
+    <script src="assets/js/index.js" defer></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="./index.html" class="logo">
+        <span class="logo-text">⚡ فليكسيا</span>
+      </a>
+
+      <nav class="navbar">
+        <a href="./index.html" class="nav-link">الرئيسية</a>
+        <a href="./movie-list.html" class="nav-link" onclick="getMovieList('with_genres=28', 'الأفلام', 'movie')">الأفلام</a>
+        <a href="./movie-list.html" class="nav-link" onclick="getMovieList('with_genres=10759', 'المسلسلات', 'tv')">المسلسلات</a>
+        <a href="./movie-list.html" class="nav-link" onclick="getMovieList('with_genres=16', 'أنمي', 'movie')">أنمي</a>
+        <a href="./movie-list.html" class="nav-link" onclick="getMovieList('with_genres=99', 'منوعات', 'movie')">منوعات</a>
+      </nav>
+
+      <div class="desktop-search">
+          <input type="text" placeholder="ابحث عن ما تريد..." class="search-field" style="height:35px; font-size:1.4rem;">
+      </div>
+
+      <div class="search-box" search-box>
+        <div class="search-wrapper" search-wrapper>
+          <input
+            type="text"
+            name="search"
+            aria-label="بحث عن أفلام"
+            placeholder="ابحث عن فيلم..."
+            class="search-field"
+            autocomplete="off"
+            search-field
+          />
+          <span class="search-icon">🔍</span>
+        </div>
+
+        <button class="search-btn" search-toggler menu-close>
+          <span style="font-size:20px">✕</span>
+        </button>
+      </div>
+
+      <button class="search-btn" search-toggler menu-close>
+        <span style="font-size:20px">🔍</span>
+      </button>
+
+      <button class="menu-btn" menu-btn menu-toggler>
+        <span class="menu" style="font-size:24px">☰</span>
+        <span class="close" style="font-size:24px">✕</span>
+      </button>
+    </header>
+
+    <main>
+      <!-- Sidebar -->
+      <nav class="sidebar" sidebar></nav>
+      <div class="overlay" overlay menu-toggler></div>
+
+      <article class="container" page-content></article>
+    </main>
+  </body>
+</html>
