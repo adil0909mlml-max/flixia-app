@@ -21,7 +21,7 @@ function createMovieCard(media) {
   card.classList.add("movie-card");
 
   card.innerHTML = `
-    <figure class="poster-box card-banner">
+    <figure class="poster-box card-banner ${poster_path ? '' : 'no-poster'}">
       <img
         src="${posterUrl}"
         alt="${cardTitle}"
@@ -30,7 +30,7 @@ function createMovieCard(media) {
       />
       <div class="card-meta">${year} ${isTv ? ' | TV' : ''}</div>
       <h3 class="title">${cardTitle}</h3>
-      <div class="rating-badge">${rating} ★</div>
+      ${vote_average > 0 ? `<div class="rating-badge">${rating} ★</div>` : ''}
     </figure>
 
     <a href="${link}" class="card-btn" title="${cardTitle}" onclick="${onClickAction}"></a>
