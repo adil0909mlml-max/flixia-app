@@ -248,6 +248,44 @@ body {
   border-radius: var(--radius-4);
 }
 
+/*-----------------------------------*\
+  #AD SLOTS
+\*-----------------------------------*/
+
+.ad-slot {
+  background-color: var(--surface);
+  border: 1px solid var(--white-alpha-20);
+  border-radius: var(--radius-16);
+  margin-block: 30px;
+  padding: 40px 20px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--on-surface-variant);
+  font-size: 1.8rem;
+  font-weight: var(--weight-bold);
+  min-height: 150px;
+  position: relative;
+  overflow: hidden;
+  transition: var(--transition-short);
+}
+
+.ad-slot::before {
+  content: 'ADVERTISING | مساحة إعلانية';
+  opacity: 0.3;
+}
+
+.ad-slot:hover {
+  border-color: #e41a1c;
+}
+
+.ad-slot-small {
+  min-height: 90px;
+  margin-block: 15px;
+  font-size: 1.4rem;
+}
+
 .poster-box {
   background-image: url(../images/poster-bg-icon.png);
   aspect-ratio: 2/3;
