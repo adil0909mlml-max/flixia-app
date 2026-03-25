@@ -93,7 +93,7 @@ function heroBanner({ results: movieList }) {
         <p class="genre">${genreList.asString(genre_ids)}</p>
         <p class="banner-text">${overview || ''}</p>
 
-        <a href="./detail.html" class="btn" onclick="getMovieDetail(${id})">
+        <a href="./detail" class="btn" onclick="getMovieDetail(${id})">
           ${getTxt("watchNow")}
         </a>
       </div>

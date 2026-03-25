@@ -41,7 +41,7 @@ function sidebar() {
     for (const [genreId, genreName] of Object.entries(genreList)) {
       const link = document.createElement("a");
       link.classList.add("sidebar-link");
-      link.setAttribute("href", "./movie-list.html");
+      link.setAttribute("href", "./movie-list");
       link.setAttribute("menu-close", "");
       link.setAttribute(
         "onclick",

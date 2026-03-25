@@ -12,7 +12,7 @@ function createMovieCard(media) {
     : "assets/images/poster-bg-icon.png";
 
   const isTv = media_type === "tv" || (name && !title);
-  const link = isTv ? "./tv-detail.html" : "./detail.html";
+  const link = isTv ? "./tv-detail" : "./detail";
   const onClickAction = isTv
     ? `getTvDetail('${id}');`
     : `getMovieDetail('${id}');`;
