@@ -321,19 +321,15 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: var(--on-surface-variant);
-  font-size: 1.8rem;
-  font-weight: var(--weight-bold);
-  min-height: 150px;
+  position: relative;
+  overflow: hidden;
+  margin-block: 20px;
   position: relative;
   overflow: hidden;
   transition: var(--transition-short);
 }
 
-.ad-slot::before {
-  content: 'ADVERTISING | مساحة إعلانية';
-  opacity: 0.3;
-}
+/* Placeholder removed for live ads */
 
 .ad-slot:hover {
   border-color: #e41a1c;
