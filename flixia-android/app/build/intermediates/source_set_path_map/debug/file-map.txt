@@ -1,0 +1,34 @@
+com.flixia.app-lifecycle-viewmodel-2.6.1-0 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\09ea8a93db0a0fce8ba5950da7abf4c4\workspace\transformed\lifecycle-viewmodel-2.6.1\res
+com.flixia.app-material-1.11.0-1 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\0cdbd77a3e5d01cb25881102b81c54ea\workspace\transformed\material-1.11.0\res
+com.flixia.app-jetified-core-ktx-1.9.0-2 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\1db855465832de1a548e73f5f25a9eb5\workspace\transformed\jetified-core-ktx-1.9.0\res
+com.flixia.app-jetified-profileinstaller-1.3.0-3 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\277622b6ba381cf9a56ad1360d81d9ac\workspace\transformed\jetified-profileinstaller-1.3.0\res
+com.flixia.app-jetified-savedstate-1.2.1-4 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\3045d54742c538e5e9022a52d1115a09\workspace\transformed\jetified-savedstate-1.2.1\res
+com.flixia.app-constraintlayout-2.1.4-5 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\32265b94d9014208dcd86fc175bd9171\workspace\transformed\constraintlayout-2.1.4\res
+com.flixia.app-jetified-annotation-experimental-1.3.0-6 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\3462d619e60855982a8120cf94bdeb8f\workspace\transformed\jetified-annotation-experimental-1.3.0\res
+com.flixia.app-fragment-1.3.6-7 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\3e182075b8c7053e46377e5df36429ab\workspace\transformed\fragment-1.3.6\res
+com.flixia.app-core-1.9.0-8 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\3e6138fff7b98afed3f855623cedbd1a\workspace\transformed\core-1.9.0\res
+com.flixia.app-lifecycle-runtime-2.6.1-9 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\3ed67484a32d02db18bb819252f5c22f\workspace\transformed\lifecycle-runtime-2.6.1\res
+com.flixia.app-jetified-activity-1.8.0-10 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\5a6c493cc1f5e4b09bf3fcd94517a23e\workspace\transformed\jetified-activity-1.8.0\res
+com.flixia.app-jetified-startup-runtime-1.1.1-11 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\5ed3831c50ec4c121c5546c02191b5d1\workspace\transformed\jetified-startup-runtime-1.1.1\res
+com.flixia.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-12 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\5f459cb9f1cb4e520441b76cead38efa\workspace\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+com.flixia.app-jetified-emoji2-views-helper-1.2.0-13 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\6462f5c49b10ccd393eab35dd9f41863\workspace\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.flixia.app-jetified-lifecycle-process-2.6.1-14 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\68b99afda5e034499af17a914cafa4b7\workspace\transformed\jetified-lifecycle-process-2.6.1\res
+com.flixia.app-jetified-viewpager2-1.0.0-15 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\76b1ce5ecb65cf412a9057846c2888f0\workspace\transformed\jetified-viewpager2-1.0.0\res
+com.flixia.app-cardview-1.0.0-16 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\829356a74b281c9c924539e2a8e261ba\workspace\transformed\cardview-1.0.0\res
+com.flixia.app-lifecycle-livedata-2.6.1-17 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\a08333992e0afbb517cbc33ad1ac0b3c\workspace\transformed\lifecycle-livedata-2.6.1\res
+com.flixia.app-recyclerview-1.1.0-18 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\a32ea05e05cf918ac30e8dfbaaf8faf8\workspace\transformed\recyclerview-1.1.0\res
+com.flixia.app-jetified-emoji2-1.2.0-19 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\aebde859c136381f78c1c1c52199a305\workspace\transformed\jetified-emoji2-1.2.0\res
+com.flixia.app-jetified-appcompat-resources-1.6.1-20 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\b2cecef14338abc7f41a4e4a3c70401c\workspace\transformed\jetified-appcompat-resources-1.6.1\res
+com.flixia.app-coordinatorlayout-1.1.0-21 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\b70f0cc51439583f7a4708cbbced303e\workspace\transformed\coordinatorlayout-1.1.0\res
+com.flixia.app-lifecycle-livedata-core-2.6.1-22 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\bd9a5d7bdf9f874231d6563cb7332999\workspace\transformed\lifecycle-livedata-core-2.6.1\res
+com.flixia.app-drawerlayout-1.1.1-23 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\bf15af00c4706f91d4713147d66d70bb\workspace\transformed\drawerlayout-1.1.1\res
+com.flixia.app-transition-1.2.0-24 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\c1cdd3bf0c96bdd40999d0089854009d\workspace\transformed\transition-1.2.0\res
+com.flixia.app-appcompat-1.6.1-25 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\e56d69a9b34cda7807ce0ce087dc711b\workspace\transformed\appcompat-1.6.1\res
+com.flixia.app-core-runtime-2.2.0-26 C:\Users\Administrator\.gradle\caches\9.2.0\transforms\fecfc97f454a2bd8d3731a3b1d45314f\workspace\transformed\core-runtime-2.2.0\res
+com.flixia.app-pngs-27 C:\Users\Administrator\Desktop\app movie\flixia-android\app\build\generated\res\pngs\debug
+com.flixia.app-resValues-28 C:\Users\Administrator\Desktop\app movie\flixia-android\app\build\generated\res\resValues\debug
+com.flixia.app-packageDebugResources-29 C:\Users\Administrator\Desktop\app movie\flixia-android\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.flixia.app-packageDebugResources-30 C:\Users\Administrator\Desktop\app movie\flixia-android\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.flixia.app-merged_res-31 C:\Users\Administrator\Desktop\app movie\flixia-android\app\build\intermediates\merged_res\debug
+com.flixia.app-debug-32 C:\Users\Administrator\Desktop\app movie\flixia-android\app\src\debug\res
+com.flixia.app-main-33 C:\Users\Administrator\Desktop\app movie\flixia-android\app\src\main\res
