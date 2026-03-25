@@ -312,18 +312,14 @@ body {
 \*-----------------------------------*/
 
 .ad-slot {
-  background-color: var(--surface);
-  border: 1px solid var(--white-alpha-20);
-  border-radius: var(--radius-16);
-  margin-block: 30px;
-  padding: 40px 20px;
+  background-color: transparent;
+  border: none;
+  margin-block: 20px;
+  padding: 10px;
   display: flex !important;
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
-  overflow: hidden;
-  margin-block: 20px;
   position: relative;
   overflow: hidden;
   transition: var(--transition-short);
@@ -332,7 +328,7 @@ body {
 /* Placeholder removed for live ads */
 
 .ad-slot:hover {
-  border-color: #e41a1c;
+  border-color: transparent;
 }
 
 .ad-slot-small {
