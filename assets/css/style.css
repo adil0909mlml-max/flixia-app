@@ -111,6 +111,7 @@ html {
   font-family: var(--ff-dm-sans);
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden; /* Prevent horizontal scroll on mobile */
 }
 
 body {
@@ -131,6 +132,7 @@ body {
   width: 12px;
   height: 12px;
 }
+
 
 ::-webkit-scrollbar-track {
   background: var(--background);
@@ -323,6 +325,7 @@ body {
   position: relative;
   overflow: hidden;
   transition: var(--transition-short);
+  max-width: 100%; /* Ensure ad doesn't stretch container */
 }
 
 /* Placeholder removed for live ads */
@@ -357,10 +360,11 @@ body {
 }
 
 .slider-list {
-  margin-inline: -20px;
-  overflow-x: overlay;
+  margin-inline: 0; /* Reset negative margins on mobile to prevent overflow */
+  overflow-x: auto;
   padding-block-end: 16px;
   margin-block-end: -16px;
+  -webkit-overflow-scrolling: touch;
 }
 
 .slider-list::-webkit-scrollbar-thumb {
@@ -427,6 +431,8 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 8px;
+  max-width: 100vw;
+  overflow: hidden;
 }
 
 .header .logo {
@@ -531,23 +537,32 @@ body {
 \*-----------------------------------*/
 
 .sidebar {
-  position: absolute;
+  position: fixed; /* Use fixed for better mobile stability */
   background-color: var(--background);
-  top: 96px;
+  top: 0;
   bottom: 0;
-  left: -340px;
-  max-width: 340px;
+  inset-inline-start: -100%; /* Slide from start (right in Arabic) */
+  max-width: 300px;
   width: 100%;
-  border-block-start: 1px solid var(--banner-background);
-  overflow-y: overlay;
-  z-index: 4;
+  border-inline-end: 1px solid var(--banner-background);
+  overflow-y: auto;
+  z-index: 10;
   visibility: hidden;
   transition: var(--transition-long);
 }
 
 .sidebar.active {
-  transform: translateX(340px);
+  transform: translateX(100%); /* RTL will handle the direction automatically with inset-inline */
   visibility: visible;
+}
+
+/* For RTL explicitly if needed */
+[dir="rtl"] .sidebar {
+  inset-inline-start: -300px;
+}
+
+[dir="rtl"] .sidebar.active {
+  transform: translateX(300px);
 }
 
 .sidebar-inner {
